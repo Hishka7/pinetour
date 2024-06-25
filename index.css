@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+}
+#dot {
+  color: #18ba51;
+}
+.trip {
+  text-align: center;
+  color: grey;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.circle {
+  background-color: black;
+  color: #16a94a;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#place {
+  color: #777777;
+  padding: 3px;
+}
+.locationtitle {
+  color: #ababab;
+  padding: 12px;
+  margin: 12px;
+}
+.button {
+  background-color: #171717;
+  color: white;
+  width: Fixed (1, 440px) px;
+  height: Hug (393px) px;
+  top: 2977px;
+  padding: 150px 0px 150px 0px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.button button {
+  background-color: #18ba51;
+  padding: 12px;
+}
+.footersection {
+  background: #101010;
+  color: white;
+  width: Fixed (1, 440px) px;
+  height: 200p;
+  top: 3370px;
+  padding: 80px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.locat {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imglocat {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+#pricing {
+  display: flex;
+  justify-content: center;
+  color: #ababab;
+}
+#pricetitle {
+  display: flex;
+  justify-content: center;
+}
+.pricecard {
+  background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 24px;
+  border: 2px solid black;
+}
+.pricecardlist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.social {
+  background-color: #303030;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 15px;
+}
+.price2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
